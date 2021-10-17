@@ -2,4 +2,5 @@
 - アクティビティバー(一番左の)から虫のところを押す。または ctrl + shift + d
 - launch.jsonファイルを作成する
 - Python fileを選ぶ
-- 矢印を押す
+- debuggeする時は、デバッガを置く。コード番号の左の赤い点
+- 矢印を押す または function keyの　F5
