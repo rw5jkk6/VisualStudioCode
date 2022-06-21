@@ -2,20 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "go run",
-            "type": "shell",
-            "command": "go",
-            "args": [
-                "run",
-                "test.go"
-            ],
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
             "label": "echo Hello",
             "type": "shell",
             "command": "echo",
