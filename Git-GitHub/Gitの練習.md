@@ -6,4 +6,7 @@
 - main.goファイルにadd関数を作って表示するコードを書く
 - ステージングしてコメントを書いてcommitする
 - sub関数を作って、commitする
-- 
+- git graphを見てみる
+- mulを作るにあたって、branchを作って、checkoutする
+  - 関数mul10を作ってcommitする 
+- masterに戻ってbranch-mul10を右クリックしてを\[Merge into current branch ...]を選択する
