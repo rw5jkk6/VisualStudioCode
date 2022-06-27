@@ -21,7 +21,7 @@
   - hitoshi.txtに`大学に入学する`と書いて、commitする
   - hitoshi.txtに`大学を卒業する`と書いて、commitする
   - 上のcommitに対して、`age22`というタグをつける
-- 卒業後の章
+- 卒業後の電通の章
   - branch-dentuを作る
   - hitoshi.txtに`電通に就職する`と書いて、commitする
   - hitoshi.txtに`全然ついていけないので3日で辞める`と書いて、commitする
