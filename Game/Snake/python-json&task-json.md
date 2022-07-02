@@ -1,3 +1,22 @@
+- ショートキー(task.json)の実行に使う
+```json
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "game run",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "main.py"
+            ],
+        }
+    ]
+}
+```
+- ユーザースニペット(python.json)に使う
 ```json
 {
 	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
