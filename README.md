@@ -11,9 +11,13 @@
 |opt(Alt)+上下矢印|上下にコードを移動|
 |shift+opt(Alt)+上下矢印|上下にコードをコピー|
 |cmd+x|行のコピー、または削除|
+|cmd + shift + b|タスクの実行|
 
 ## 機能
 - ユーザースニペット
 - task
 - デバッガ
-
+- git & github & github Actions
+- test
+- 仮想環境
+- ライブラリの作成
