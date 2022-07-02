@@ -10,7 +10,11 @@
 ## gitのコマンド
 |コマンド|機能|
 |:--|:--|
-|git status|ファイルの状況を確認する|
+|git init||
+|git branch||
+|git checkout||
+|git add (-A)||
+|git commit (-a)||
 |git diff|今のファイルとステージングされたファイルを比較する|
 |git commit --amend -m "コメント"|直前の間違ったコメントを修正する|
 
