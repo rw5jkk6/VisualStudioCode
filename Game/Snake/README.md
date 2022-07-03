@@ -21,7 +21,8 @@
     - コードを書く
     - コメントをつけてcommitする
     - 前のcommitとコードを比較する。git graphを押して、○masterの右クリックしてmain.pyを押す
-3. ここから複雑になるのでbranchで作業する。snakeが動く
+3. snakeが動く
+    - ここから複雑になるのでbranchで作業する
     - コードを書く
     - さっきと同じで、前のcommitとコードを比較する
     - コメントをつけてcommitする
