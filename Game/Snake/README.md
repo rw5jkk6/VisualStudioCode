@@ -31,6 +31,7 @@
     - branchでコードを書く
     - コメントをつけてcommitする
     - masterとmergeする。
+    - 自分自身に当たってもゲームオーバーしないのでmasterをrevertして、branchを修正してmergeする
 6. エサを初期時に置いて、食べるとランダムに餌が出現する
     - branchでコードを書く
     - コメントをつけてcommitする
