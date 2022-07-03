@@ -73,8 +73,9 @@ def main():
                 head = (SNAKE[0][0], SNAKE[0][1]-1)
             elif key == K_DOWN:
                 head = (SNAKE[0][0], SNAKE[0][1]+1)
-        
-            if head[0] < 0 or head[0] >= W or \
+            
+            if head in SNAKE or \
+               head[0] < 0 or head[0] >= W or \
                head[1] < 0 or head[1] >= H:
                message = myfont.render("Game over!", 
                                         True, (255, 255, 0))
