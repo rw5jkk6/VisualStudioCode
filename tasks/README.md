@@ -12,3 +12,5 @@
 |type|ほとんど shell|
 |command|コマンド名　　例えば go, gcc, python3など|
 |args|コマンドの後に続く引数、オプションやファイル名など|
+|(group) kind|build(実行)またはtest(テスト)のどちらか|
+|(group) isDefault|ビルドかテストをデフォルトにする|
