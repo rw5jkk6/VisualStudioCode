@@ -1,0 +1,2 @@
+- 事前にイメージを作っておいて、フォルダを共有する
+- `docker container run --rm -it --name コンテナ名 -v $(pwd):/ユーザ名 イメージ名:tag`
