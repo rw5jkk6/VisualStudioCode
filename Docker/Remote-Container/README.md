@@ -2,7 +2,13 @@
 1. 既存のDockerイメージを使い、ひとつのコンテナを起動する
     - "image"にDockerイメージの名前とタグを指定する
 2. Dockerfileを使ってビルドしたDockerイメージを使い、ひとつのコンテナを起動する
+    - フォルダを作ってDockerfileを置いておく
+    - 左下のリモートコンテナから`Reopen in container`選ぶ
+    - From 'Dockerfile'を選ぶ
+    - 参考 https://zenn.dev/hkdord/articles/remote-containers
+3. 事前に用意されてあるDockerfileを使う
     - "dockerFile"にDockerfileのパスを指定する
+    - 上で指定されてあるDockerfileが実行される
 ## Goで作成のサンプル
 1. 拡張機能で`Remote-Containers`をinstall
 2. フォルダやmain.goファイルを事前に作っておく
