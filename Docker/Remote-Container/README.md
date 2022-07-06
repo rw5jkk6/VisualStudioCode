@@ -2,7 +2,7 @@
 1. 既存のDockerイメージを使い、ひとつのコンテナを起動する
     - "image"にDockerイメージの名前とタグを指定する
 2. Dockerfileを使ってビルドしたDockerイメージを使い、ひとつのコンテナを起動する
-    - "Dockerfile"にDockerfileのパスを指定する
+    - "dockerFile"にDockerfileのパスを指定する
 ## Goで作成のサンプル
 1. 拡張機能で`Remote-Containers`をinstall
 2. フォルダやmain.goファイルを事前に作っておく
