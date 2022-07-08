@@ -19,6 +19,9 @@
 |git commit --amend -m "コメント"|直前の間違ったコメントを修正する|
 |git fetch|更新された情報をチェックする|
 |git pull|更新された情報をダウンロードする|
+|git pull request|コードの変更を求める|
+|git revert|過去のコミットを削除する|
+
 ## Githubでバージョン管理
 - Githubでの操作
   - リポジトリを作る
