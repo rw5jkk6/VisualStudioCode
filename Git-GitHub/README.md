@@ -10,14 +10,15 @@
 ## gitのコマンド
 |コマンド|機能|
 |:--|:--|
-|git init||
-|git branch||
-|git checkout||
-|git add (-A)||
-|git commit (-a)||
+|git init|初期化する|
+|git branch|ブランチを作る|
+|git checkout|切り替える|
+|git add (-A)|ステージング|
+|git commit (-a)|コミットする|
 |git diff|今のファイルとステージングされたファイルを比較する|
 |git commit --amend -m "コメント"|直前の間違ったコメントを修正する|
-
+|git fetch|更新された情報をチェックする|
+|git pull|更新された情報をダウンロードする|
 ## Githubでバージョン管理
 - Githubでの操作
   - リポジトリを作る
