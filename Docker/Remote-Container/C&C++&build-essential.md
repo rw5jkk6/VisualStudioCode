@@ -1,3 +1,5 @@
+## 注意
+- apt-get updateを削除しているので、新しくinstallするときは、また`apt update`する必要がある
 ```dockerfile
 FROM ubuntu:latest
 
