@@ -7,9 +7,10 @@
 - ファイルのコミット(git commit)
   - コメントを入力して ctrl + enter 
 
-## gitのコマンド
+## gitのコマンド(カッコ()はオプション)
 |コマンド|機能|
 |:--|:--|
+|git --version|バージョン情報|
 |git init|初期化する|
 |git branch|ブランチを作る|
 |git checkout|切り替える|
@@ -18,7 +19,7 @@
 |git diff|今のファイルとステージングされたファイルを比較する|
 |git commit --amend -m "コメント"|直前の間違ったコメントを修正する|
 |git fetch|更新された情報をチェックする|
-|git pull|更新された情報をダウンロードする|
+|git pull|更新された情報をローカルにダウンロードする|
 |git pull request|コードの変更を求める|
 |git revert|過去のコミットを削除する|
 
