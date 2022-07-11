@@ -49,3 +49,11 @@
 - githubのリポジトリのコードボタン(緑色)の下に`fetch up stream`を押す。次に`fetch and merge`を押す。これで更新できる
 - \[...]を押して \[プル、プッシュ]の右側の \[プル]を押す
 - 自分のリポジトリのURLをコピーして貼り付ける
+## pull Request
+- fork
+- clone
+- branchを作ってcommit
+- push
+- 自分のGithub上でpull requestタブを押す
+- Codeタブで`commit & pull request`で押す
+- タイトルとコメントを入れて`create pull request`を押す
