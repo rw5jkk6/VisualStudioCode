@@ -1,0 +1,3 @@
+- masterでAddを作る
+- branchでSubを作る
+- masterにbranchをマージする
