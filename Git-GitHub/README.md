@@ -38,6 +38,9 @@
   - GithubのリポジトリのURLを貼り付ける。リモート名は\[origin]にしておく
   - git push ソース管理ビューの...をクリックしてメニュー先の\[プッシュ先...]を選択して[origin]を選択する
 
+## branchを使ってmergeする
+- branchを作って、コードを書く
+- masterにcheckoutする。GitGraphのbranchの右側を右クリックしてmergeする
 
 ## リモートリポジトリの複製(Gitのclone)
 - リポジトリのwebページからURLを取得する
