@@ -54,7 +54,9 @@
 - 自分のリポジトリのURLをコピーして貼り付ける
 ## pull Request
 - fork
-- clone
+- 最新のコードに更新
+  - git pull origin master
+  - clone
 - branchを作ってcommit
 - push
 - 自分のGithub上でpull requestタブを押す
