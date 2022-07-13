@@ -33,3 +33,7 @@
 - test
 - 仮想環境
 - ライブラリの作成
+
+## 参考
+- setting.jsonの保存場所
+  - /Users/Username/Library/Application Support/Code/User `cd "Application Support"`で移動
