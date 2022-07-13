@@ -64,7 +64,7 @@
 - タイトルとコメントを入れて`create pull request`を押す
 ## Pull Request(Github)
 - fork
-- codeを編集してbranchでmergeする
+- codeを編集して `Create a new branch ~~ `に変えて`Propose changes`を押す
 - pullRequestタブを押す
 
 ## メモ
