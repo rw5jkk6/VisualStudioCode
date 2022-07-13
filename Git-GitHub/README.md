@@ -52,7 +52,7 @@
 - githubのリポジトリのコードボタン(緑色)の下に`fetch up stream`を押す。次に`fetch and merge`を押す。これで更新できる
 - \[...]を押して \[プル、プッシュ]の右側の \[プル]を押す
 - 自分のリポジトリのURLをコピーして貼り付ける
-## pull Request
+## Pull Request(GithubまたはVSCodeでリクエストを送る方法がある。Githubの方は簡単)
 - fork
 - 最新のコードに更新
   - git pull origin master
