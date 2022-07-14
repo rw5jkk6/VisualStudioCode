@@ -53,17 +53,17 @@
 - \[...]を押して \[プル、プッシュ]の右側の \[プル]を押す
 - 自分のリポジトリのURLをコピーして貼り付ける
 ## Pull Request(VSCode)
-- fork
-- 最新のコードに更新
+- forkする。forkすると自分と相手側と同じレポジトリ名のが２つ作られるが自分のリポジトリでしなければならないので注意
+- 最新のコードに更新(以下のどちらか)
   - git pull origin master
-  - clone
-- branchを作ってcommit
+  - git clone
+- branchを作ってcommit。branchを作らないとPull Requestができないので注意
 - push
 - 自分のGithub上でpull requestタブを押す
 - Codeタブで`commit & pull request`で押す
 - タイトルとコメントを入れて`create pull request`を押す
 ## Pull Request(Github)
-- fork
+- forkする。forkすると自分と相手側と同じレポジトリ名のが２つ作られるが自分のリポジトリでしなければならないので注意
 - codeを編集して `Create a new branch ~~ `に変えて`Propose changes`を押す
 - pullRequestタブを押す
 
