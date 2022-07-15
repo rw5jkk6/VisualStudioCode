@@ -52,6 +52,9 @@
 - githubのリポジトリのコードボタン(緑色)の下に`fetch up stream`を押す。次に`fetch and merge`を押す。これで更新できる
 - \[...]を押して \[プル、プッシュ]の右側の \[プル]を押す
 - 自分のリポジトリのURLをコピーして貼り付ける
+
+![IMG_0185](https://user-images.githubusercontent.com/66894552/179152820-5f97a0c3-d9f8-4961-be46-93b8c9991c5e.PNG)
+
 ## Pull Request(VSCode)
 - originがないと同期できないので、Githubのバージョン管理していないと使えないので注意
 - forkする。forkすると自分と相手側と同じレポジトリ名のが２つ作られるが自分のリポジトリでしなければならないので注意
@@ -68,6 +71,19 @@
 - codeを編集して `Create a new branch ~~ `に変えて`Propose changes`を押す
 - pullRequestタブを押す
 
+## Pull Request(ターミナルでコマンド)
+
+- ブランチの確認
+`git branch`
+`git pull origin master`
+`git status`
+`git checkout -b ブランチ名`
+ファイルの変更
+`git add ファイル名`
+`git commit` vimが開くので、コメントを書く。終了は　`:wq`
+`git push origin レポジトリ名` この時点では、まだ自分のGitHubは書き換えられない。
+ここからGitHubで
+``
 ## メモ
 - masterとorigin/masterの違い
   - masterはローカルでorigin/masterはリモート
