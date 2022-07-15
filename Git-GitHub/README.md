@@ -74,16 +74,20 @@
 ## Pull Request(ターミナルでコマンド)
 
 - ブランチの確認
-`git branch`
-`git pull origin master`
-`git status`
-`git checkout -b ブランチ名`
-ファイルの変更
-`git add ファイル名`
-`git commit` vimが開くので、コメントを書く。終了は　`:wq`
-`git push origin レポジトリ名` この時点では、まだ自分のGitHubは書き換えられない。
-ここからGitHubで
-``
+- `git branch`
+- `git pull origin master`
+- `git status`
+- `git checkout -b ブランチ名`
+- ファイルの変更
+- `git add ファイル名`
+- `git commit` vimが開くので、コメントを書く。終了は　`:wq`
+- `git push origin レポジトリ名` この時点では、まだ自分のGitHubは書き換えられない。
+- ここからGitHubで
+- `git checkout master`
+- `git merge ブランチ名`
+- `git pull origin master`
+- `git branch -d ブランチ名`
+
 ## メモ
 - masterとorigin/masterの違い
   - masterはローカルでorigin/masterはリモート
