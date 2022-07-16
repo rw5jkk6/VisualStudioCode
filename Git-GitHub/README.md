@@ -13,17 +13,20 @@
 |コマンド|機能|
 |:--|:--|
 |git --version|バージョン情報|
+|git config --list|設定リストの一覧表示|
 |git init|初期化する|
 |git branch|ブランチを作る|
 |git checkout|切り替える|
-|git add (-A)|ステージング|
+|git add (-A　または . )|ステージング|
 |git commit (-a)|コミットする|
 |git diff|今のファイルとステージングされたファイルを比較する|
+|git commit -m "メッセージ"|commitの際にメッセージを一緒に書く|
 |git commit --amend -m "コメント"|直前の間違ったコメントを修正する|
 |git fetch|更新された情報をチェックする|
 |git pull|更新された情報をローカルにダウンロードする|
 |git pull request|コードの変更を求める|
 |git revert|過去のコミットを削除する|
+|git log|commitの履歴がわかる|
 
 ## Githubでバージョン管理
 - Githubでの操作
