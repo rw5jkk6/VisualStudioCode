@@ -1,3 +1,0 @@
-- aplpineLinuxを起動する
-  - `docker -it --name hello alpine /bin/sh`
--  
