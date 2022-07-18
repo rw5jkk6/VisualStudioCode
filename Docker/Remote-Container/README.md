@@ -1,3 +1,6 @@
+## DevContainerで作ったファイルの場所
+- Dockerfileやvscodeで同じフォルダに作ったファイルは/workspace/tmpフォルダに置かれる
+
 ## Dev Containerでの起動の仕方は３通り
 1. 既存のDockerイメージを使い、ひとつのコンテナを起動する
     - "image"にDockerイメージの名前とタグを指定する
