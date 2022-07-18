@@ -8,4 +8,4 @@
 
 ## 新しいbinフォルダを作る
 - ユーザフォルダにbinを作って、pathを通す
-- 
+- `code .profile`でvscodeが起動できる
