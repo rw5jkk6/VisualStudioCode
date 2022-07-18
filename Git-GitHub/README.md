@@ -14,6 +14,7 @@
 |:--|:--|
 |git --version|バージョン情報|
 |git config --list|設定リストの一覧表示|
+|git config --global merge.ff false|FastForwardマージを禁止する|
 |git init|初期化する|
 |git branch|ブランチを作る|
 |git checkout|切り替える|
