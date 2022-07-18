@@ -95,3 +95,6 @@
 ## メモ
 - masterとorigin/masterの違い
   - masterはローカルでorigin/masterはリモート
+- Github上のmainとローカルのmasterは同じもの
+- originと名前をつけるのは複数のリモートリポジトリを持てるため
+- cloneはsshを使う
