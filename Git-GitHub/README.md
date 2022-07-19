@@ -9,12 +9,18 @@
 - ファイルのコミット(git commit)
   - コメントを入力して ctrl + enter 
 
+## ファイルを無視する
+- パスワードのファイルや、Macでフォルダに自動で作られるファイルを無視する
+- `.gitignore`というファイルを作る
+- .gitignoreファイルの中に無視するファイル名を書き込む
+
 ## gitのコマンド(カッコ()はオプション)
 |コマンド|機能|
 |:--|:--|
 |git --version|バージョン情報|
 |git config --list|設定リストの一覧表示|
 |git config --global merge.ff false|FastForwardマージを禁止する|
+|git config --global alias.省略名 コマンド名|コマンドにエイリアスをつけられる|
 |git init|初期化する|
 |git branch|ブランチを作る|
 |git checkout|切り替える|
@@ -28,6 +34,9 @@
 |git pull request|コードの変更を求める|
 |git revert|過去のコミットを削除する|
 |git log|commitの履歴がわかる|
+|git status|状態を確認する|
+|git remote|リモートリポジトリの確認|
+|git remote show リモート名(origin)|個別のリモートリポジトリを調べる|
 
 ## Githubでバージョン管理
 - Githubでの操作
@@ -91,6 +100,12 @@
 - `git merge ブランチ名`
 - `git pull origin master`
 - `git branch -d ブランチ名`
+
+## mergeとrebaseの違い
+||merge|rebase|
+|:-:|:-:|:-:|
+|merit|コンフリクトの解消が簡単|コンフリクトの解消が面倒|
+|demerit|commit　の履歴が複雑|commitの履歴がシンプル|
 
 ## メモ
 - masterとorigin/masterの違い
