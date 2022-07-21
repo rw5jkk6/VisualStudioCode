@@ -1,6 +1,16 @@
+## shellの変更
+- シェルの変更
+  - `chsh -s /bin/bash`
+- 確認
+  - `echo "$SHELL"`
+
 ## 事前準備
-- Goで`Hello world`を出力するファイル名`hello`アプリを作る。
-- 実行する
+- vimで`Hello world`を出力するファイル名`hello.sh`アプリを作る。
+- 実行する(以下のどれでもOK)
+  - `./hello.sh` 
+  - `. hello.sh` 
+  - `source hello.sh` 
+  - `bash hello.sh` 
 
 ## 知っておくべきkeyword
 - export
