@@ -10,8 +10,9 @@
 - コンテナの削除
   - `docker container rm -f コンテナ名` 
 - image削除
-  - `docker image ls -q | xargs docker image rm -f`
+  - `docker images ls -q | xargs docker image rm -f`
     - -q イメージidのみを表示する  
-
+- コンテナの削除
+  - `docker container ls -q | xargs docker container rm -f`
 ## Dockerfileからイメージを作る
 - `docker build -t イメージ名:tag . `
