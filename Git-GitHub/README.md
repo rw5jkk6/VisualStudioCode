@@ -22,8 +22,9 @@
 |git config --global merge.ff false|FastForwardマージを禁止する|
 |git config --global alias.省略名 コマンド名|コマンドにエイリアスをつけられる|
 |git init|初期化する|
-|git branch|ブランチを作る|
-|git checkout|切り替える|
+|git branch|ブランチを一覧表示する|
+|git branch ブランチ名|ブランチを作成する|
+|git checkout 移動先ブランチ名|ブランチを切り替える|
 |git add (-A　または . )|ステージング|
 |git commit (-a)|コミットする|
 |git diff|今のファイルとステージングされたファイルを比較する|
