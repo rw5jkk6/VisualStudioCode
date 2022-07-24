@@ -1,6 +1,7 @@
-![IMG_2684](https://user-images.githubusercontent.com/66894552/174801186-e6be4068-2301-42ff-9e5d-37306c24219e.JPG)
+![174801186-e6be4068-2301-42ff-9e5d-37306c24219e](https://user-images.githubusercontent.com/66894552/180632667-76cf0fb2-1f03-4509-b503-659837886715.jpg)  
+![178100079-a940f2eb-d956-41a0-acc7-e3c869f8930a](https://user-images.githubusercontent.com/66894552/180632708-3298de97-fbd0-45b8-8452-63944790b4a9.jpg)
 
-![IMG_2709](https://user-images.githubusercontent.com/66894552/178100079-a940f2eb-d956-41a0-acc7-e3c869f8930a.JPG)
+
 
 ## gitの使い方(ターミナルでなく、vscodeのサイドバーで操作する)
 - リポジトリの初期化(git init)
@@ -113,7 +114,15 @@
 |merit|コンフリクトの解消が簡単|コンフリクトの解消が面倒|
 |demerit|commit　の履歴が複雑|commitの履歴がシンプル|
 
+## HEADやbranchの違い
+
+![IMG_0188](https://user-images.githubusercontent.com/66894552/180632445-e928ae78-a4fc-4468-9804-9d507d05393a.PNG)
+- branchは一番新しいcommitのポインタを指すもの
+- HEADは、今、自分が作業している場所のポインタ
+- HEADはcommitのポインタのポインタになっている
+
 ## メモ
+- Gitは各コミットにparentを持っていて、parentはその前のコミットのハッシュ値を持っていて時系列にたどれる
 - masterとorigin/masterの違い
   - masterはローカルでorigin/masterはリモート
 - Github上のmainとローカルのmasterは同じもの
