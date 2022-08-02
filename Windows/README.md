@@ -1,5 +1,6 @@
 ## Widowsの設定
 - VSCodeをinstallする
+  - 一番にsave機能を設定する。`設定` `auto save` `afterDelay` にする。1/1000秒で自動に保存する
   - 拡張機能で日本語にする。Japaneseで検索してダウンロードする
 - Gitをインストールする
   - windowsにはgitが入っていないので、`git for windows`をダウンロードする
