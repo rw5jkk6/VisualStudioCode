@@ -1,0 +1,7 @@
+- `golang` と検索してGoのサイトに行く。ダウンロードを押す
+- `Microsoft Windows` を選択して `開く`
+- インストーラ(そのまま押していけばいいだけ)
+  - `next`
+  - `next` 同意
+  - `next` Destination Folder はGoのアプリをインストーラ先のパスを決める `C:¥Program Files¥Go¥`
+  - `Install`
