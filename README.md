@@ -17,7 +17,7 @@
 |shift+opt(Alt)+上下矢印|上下にコードをコピー|
 |cmd+x|行のコピー、または削除|
 |cmd + shift + b|タスクの実行|
-|cmd + j　または ctrl + `|パネルを開く(閉じる)。移動でアクティビになるので実行が簡単にできる|
+|cmd + j　または ctrl + ` <br>(windows)Alt ＋ チルダ(~）|パネルを開く(閉じる)。移動でアクティビになるので実行が簡単にできる|
 
 ## Live Share
 - Live Share Extension pack をインストール
