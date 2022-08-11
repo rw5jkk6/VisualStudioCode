@@ -28,6 +28,7 @@
 - PATHを通す
   - 基本は画像を参考にする
   - homeディレクトリの隠しファイルの`.profile`を開いて`code .profile`末尾に記述
+    - `code .profile`とコマンドすることでvscodeで開くことができる 
     - `export PATH=$PATH:/usr/local/go/bin` 
   - .profileをリフレッシュさせる
     - `source .profile`
